@@ -1,0 +1,218 @@
+@media all and (max-width:320px){
+    .tm-titele,h2.srv-titelaa,h2.wlq-sec-titel { font-size: 40px !important;}
+    ul.social-sec-footer {width:50% !important; margin: auto;}
+    .text-copy{font-size: 10px!important;}
+    .ctp-com a, .footer-add-sec a {font-size: 15px !important;}
+}
+@media (min-width: 321px) and (max-width: 480px) { 
+    div#galleryhome { height:320px !important;}
+    ul.social-sec-footer {width: 44%!important;     margin: auto;}
+    .ctp-com a, .footer-add-sec a{    font-size: 16px !important;}
+}
+@media all and (max-width:480px){      
+    .doublepartstyle {flex: 100%; max-width: 100%; text-align: center;}
+    section.copyright-section{    font-size: 13px !important;}
+    .otherservices-section .iconTitle{flex-basis: 100% !important;  margin-bottom: 20px;}
+    .otherservices-section .srvimg img{margin-left: auto; margin-right: auto; display: block;}
+    .ttlleft,.titleright{font-size: 13px !important;  padding: 5px !important;}
+    
+
+}
+@media all and (max-width:568px){   
+    .ug-thumbs-grid { width:100% !important;}
+} 
+
+@media (min-width: 320px) and (max-width:767px) { 
+    #banner {height: 100% !important; background: url(/wp-content/themes/Yeasfi2/img/inner-banner.jpg) no-repeat center !important; background-size: cover !important;}
+    .bannert1 h1 {font-size: 29px!important;}
+    .bannert2 h2{font-size: 25px!important;}
+    h2.srv-titelaa{margin-top: 0 !important;}
+    section.services-section{padding: 20px 0 !important}
+    div#truck-wrecking,div#used-parts, div#reconditioned-parts,div#new-parts{top:0;}
+    .srvimg {max-width: 80%; margin: auto;}   
+    section.footer-section.footer-widget-area {text-align: center; padding: 62px 0 30px !important;}
+    section.copyright-section{padding: 20px 0 60px !important;}
+    .ybt-top { height: 37px !important; width: 37px !important;right: 5px !important; bottom: 48px !important;}
+
+    a.footeremeil{margin-bottom: 20px;}
+    .otherservices-section .iconTitle{flex-basis: 100% !important;  margin-bottom: 20px;}
+    .otherservices-section .srvimg img{margin-left: auto; margin-right: auto; display: block;}
+    .productitem .row.justify-content-end{margin: 0 !important;}
+
+}
+
+@media (min-width:481px) and (max-width: 767px) { 
+    div#reconditioned-parts img {max-width: 63%;}
+    .doublepartstyle {flex: 50%; max-width: 100%;  text-align: center;}
+    ul.social-sec-footer {width: 34%; margin: 10px auto 30px auto !important;}
+    .ctp-com a, .footer-add-sec a{    font-size: 16px !important;}
+}
+@media all and (max-width:768px) {
+    #banner {height:100% !important; background:url(/wp-content/themes/Yeasfi2/img/inner-banner.jpg) no-repeat center !important; background-size: cover !important;}
+    .bannerelement {margin-top:30px !important;}
+    span.dtb {display: inline-block;}
+    .tetel-inner-page{   padding: 30px 0 !important;}
+    .tetel-inner-page .innerpage-titel{font-size: 40px  !important; }
+    .innerimage img { max-width: 100%; object-fit: cover;}
+    .productitem .row.justify-content-end{margin: 0 !important;}
+    section#productsec li.nav-item a{ font-size: 12px; padding: 10px 4px; border: 1px solid; margin: 0 0 2px 0;}
+    section#productsec .nav-tabs .nav-item{margin-left:1px;    padding: 0;    margin-right:1px;}
+    #productsectitle{font-size: 30px;}
+    .leftblock { text-align: center;}
+    .mapimage a{margin: 0!important }
+    h2.hjaddr{position: relative;    padding: 20px;     text-align: center; top: 0;}
+    .ctp-add-sec img{    margin-bottom: 20px;}
+    
+    .footer-add-sec a{margin-bottom: 10px;}
+    .comlogo { text-align: center;}    
+    .faq-title .quize-titl{font-size: 18px !important;}
+    section.innerpage.faqtext_sec { margin-bottom: 0 !important;}
+}
+
+
+
+
+/**Ipad mini landscape media query**/
+@media (min-width:768px) and (max-width:991px) {
+    #banner{height: 33vh !important;}
+    .bannerelement { margin-top: 30px !important;}
+    .bannert1 h1 { font-size:33px!important;}
+    .bannert2 h2{ font-size:27px!important;}
+    .bannerelement img {max-width: 33% !important;}
+    section.services-section{padding-top:0 !important;padding-bottom: 60px;}
+    i.fa.fa-plus { font-size: 16px !important;}
+    section.welcome-section { padding-top: 20px !important;}
+    section.footer-section.footer-widget-area {text-align: center;}
+    img.banerphone {margin-bottom: 20px;}
+    a.footeremeil {margin-bottom: 20px;}
+
+    ul.social-sec-footer { width: 23%; margin: 20px auto !important;}
+    section.copyright-section{padding: 20px 0 60px !important;}
+    .ybt-top{    bottom: 110px !important;}
+    section.footer-section.footer-widget-area { padding: 62px 0 30px !important;}
+    .tetel-inner-page{    padding: 50px 15px !important;}
+    .otherservices-section .srv-txt{min-height: 167px !important;}
+    .otherservices-section h2.white-text {font-size: 15px;}
+    .ctp-add-sec {text-align: center;}
+
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width:901px) and (max-width:1199px) {
+    section.testimonial-section .owl-prev {left: -40px!important;}
+    section.testimonial-section .owl-next{right: -40px !important;}
+    a.applybtn {width: 100% !important; font-size: 17px !important;}
+    .tetel-inner-page{padding: 30px 15px !important;}
+    .leftblock {text-align: center;}
+    .col-auto { display: block; width: 100%;}
+    h2.cntpage-title {text-align: center;}
+    .footer-add-sec h2{margin-bottom: 10px !important; margin-top: 20px;}  
+}
+@media all and (min-width:992px) and (max-width:1199px) {    
+    #cssmenu > ul > li > a{font-size:13px !important; padding: 10px 6px !important;}
+    #header-phone {display: none}
+    #banner{height: 68vh !important;}
+    .bannerelement img {max-width: 63%;}
+    .bannerelement { margin-top: 138px !important;}
+    .bannert1 h1 {font-size:29px !important;}
+    .bannert2 h2{font-size: 25px  !important; margin: 17px 0  !important;}
+    h2.wlq-sec-titel { font-size: 27px!important;}
+    .ybt-top{right: 10px !important; bottom: 56px!important;  height: 48px;    width: 48px;}
+    .fixed #cssmenu ul li a {padding-top: 0px !important;  padding-bottom:0px !important;}
+    section.services-section{padding-top: 30px !important;}
+    h2.srv-titelaa {font-size: 42px!important;}
+    section.welcome-section {padding:20px 0!important;}
+    section.welcome-section .wlqcont .col-lg-6 { max-width: 100% !important; flex: 100% !important;  width: 100% !important;}
+    section.welcome-section .wlqcont .col-lg-4 { max-width: 100% !important; flex: 100% !important;  width: 100% !important;}
+    section.copyright-section, ul#menu-footer-menu li a{font-size: 13px !important;}
+    .footer-add-sec a{font-size: 16px !important;}
+
+} 
+
+
+@media all and (min-width: 1200px) and (max-width:1299px) {  
+    #cssmenu > ul > li > a{font-size: 14px !important; padding: 10px 6px !important;}
+    #header-phone a, #header-phone i {font-size:32px !important;}
+    #header-phone a{    display: none;}
+    .bannerelement { margin-top: 138px !important;}
+    .bannert1 h1 {font-size: 39px !important;}
+    h2.wlq-sec-titel { font-size: 32px!important;}
+    .ybt-top{right: 10px !important;}
+    .fixed #cssmenu ul li a {padding-top: 0px !important;  padding-bottom:0px !important;}
+
+
+}
+
+@media all and (min-width: 1300px) and (max-width:1399px) {  
+    .bannertlefth1 {font-size:44px;}
+    .bannertleft h2{    font-size: 26px;}
+    .bannertright h1{font-size: 24px;}
+    h2.sprighticonstyleitle { font-size: 15px !important;}
+    h2.scondsectiontitle { font-size: 30px;}
+    .imgani {height:46px !important;  background-size: 100% !IMPORTANT; background-position: 0px -48px !important;}
+
+
+}
+@media all and (min-width: 1400px) and (max-width:1499px) {  
+
+}
+
+@media all and (min-width: 1300px) and (max-width:1500px) {    
+
+
+}
+
+
+@media (min-width: 1300px) and (max-width:1500px) {
+    #cssmenu > ul > li > a{font-size: 14px !important; padding: 10px 6px !important;}
+    #header-phone a, #header-phone i {font-size: 18px !important;}
+    
+    h2.wlq-sec-titel {font-size:37px!important;}
+    .wlqcont h1 {font-size: 20px;}
+    .fixed #cssmenu ul li a {padding-top: 10px !important; padding-bottom: 10px !important;}
+
+}
+
+/*============19.5" device media query================*/
+@media all and (min-width: 1501px) and (max-width:1700px) {  
+    #cssmenu a{padding: 20px 8px !important; }
+    #header-phone a, #header-phone i{font-size: 20px !important;}
+    h2.wlq-sec-titel {font-size: 46px!important;}
+}
+
+@media all and (min-width: 1701px) and (max-width:1900px) {  
+
+}
+/*============21" to 23" device media query================*/ 
+@media (min-width: 1701px) and (max-width:2000px) {
+    .slidertext { margin:17vh 0 29vh;}
+    .ug-tile-navigation-wrapper {left: 0 !important;width: 100%;}
+}
+@media only screen and (min-width:1900px) {
+
+}
+/*============27" large device media query================*/ 
+@media only screen and (min-width: 2001px) {
+
+    #cssmenu a {padding:10px 20px !important; font-size: 21px !important;}
+    .bannerelement {margin-top: 338px;}
+    .fixed div#logo-area img {max-width: 60%;}
+}
+
+
+
+@-moz-document url-prefix() { 
+
+    @media (min-width: 1300px) and (max-width:1499px) {
+
+
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+
+}
+
+

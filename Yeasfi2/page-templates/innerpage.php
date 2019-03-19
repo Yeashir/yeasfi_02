@@ -1,0 +1,73 @@
+<?php
+/**
+ * Template Name:Inner Page Template
+ *
+ * Description: A page template that provides a key component of WordPress as a CMS
+ * by meeting the need for a carefully crafted introductory page. The front page template
+ * in Twenty Twelve consists of a page content area for adding text, images, video --
+ * anything you'd like -- followed by front-page-only widgets in one or two columns.
+
+ */
+get_header();
+?> 
+
+<div class="tetel-inner-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+            <h2 id="page-<?php the_ID(); ?>" class="innerpage-titel"> <?php echo the_title(); ?></h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section class="innerpage" >
+    <div class="container">
+        <div class="row"> 
+            <div class="col-lg-12 col-md-12 inner-content-div post-content-innerpage">
+                <?php
+                if (have_posts()) : while (have_posts()) : the_post();
+                        $url = wp_get_attachment_url(get_post_thumbnail_id($post->ID, 'thumbnail'));
+                        ?>
+
+                        <?php the_content(); ?>                          
+
+
+                        <?php
+                    endwhile;
+                endif;
+                ?>
+
+            </div>
+           
+
+        </div>
+    </div>
+</section>
+
+<?php
+    $pagemeta_data = get_post_meta(get_the_ID(), 'page_layout', true);
+    $sponsors = $pagemeta_data[pagelayout][enabled];
+    if ($sponsors): foreach ($sponsors as $key => $value) {
+            switch ($key) {
+                case 'banner': get_template_part('page-templates/home_part/banner', 'page');
+                    break;
+                case 'services': get_template_part('page-templates/home_part/services', 'page');
+                    break;
+                case 'welcome-sec': get_template_part('page-templates/home_part/welcome-sec', 'page');
+                    break;
+                case 'testimonials': get_template_part('page-templates/home_part/testimonials', 'page');
+                    break;
+                case 'gallery': get_template_part('page-templates/home_part/gallery', 'page');
+                    break;
+                case 'form': get_template_part('page-templates/home_part/form', 'page');
+                    break;
+                case 'doublegrid': get_template_part('page-templates/home_part/doublegrid', 'page');
+                    break;
+            }
+        }
+    endif;
+
+    get_footer('option');
+    ?>
